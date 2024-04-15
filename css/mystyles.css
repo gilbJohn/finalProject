@@ -1,0 +1,101 @@
+
+body {
+    background-color: #dedede;
+}
+
+header {
+    color: white;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: black;
+    margin: 5%;
+    padding: 2%;
+}
+
+header a {
+    color: white;
+    text-decoration: none;
+    transition-duration: 0.4s;
+}
+
+header a :hover {
+    color: grey;
+}
+nav {
+    text-align: right;
+
+}
+
+.mainContent {
+    
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 5%;
+}
+
+ol {
+    display: inline-block;
+    text-align: left;
+}
+
+ul {
+    display: inline-block;
+    text-align: left;
+}
+
+.button {
+    border: none;
+    color: white;
+    padding: 1%;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+  }
+  
+  .button1 {
+    background-color: white;
+    color: green;
+    border: 2px solid #04AA6D;
+  }
+  
+  .button1:hover {
+    background-color: #04AA6D;
+    color: white;
+  }
+  
+  .button2 {
+    background-color: white;
+    color: green;
+    border: 2px solid #04AA6D;
+  }
+  
+  .button2:hover {
+    background-color: #04AA6D;
+    color: white;
+  }
+  
+  hr {
+    width: 75%;
+  }
+
+  image {
+    width: 80%;
+    height: fit-content;
+  }
+
+  .data { 
+    text-decoration: none;
+  }
+
+  footer {
+    text-align: center;
+    position: relative;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 5%;
+  }
